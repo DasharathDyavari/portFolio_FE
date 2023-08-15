@@ -17,6 +17,7 @@
   position: fixed;
   top: 0;
   background-color: white;
+  border-bottom: 1px solid orange;
   z-index: 100;
  }
 
@@ -218,3 +219,123 @@
 }
 
 /* End of About section */
+
+/* Projects section */
+
+.projects{
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header{
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.projects-header h2{
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.bar{
+  height: 5px;
+  border-radius: 20px;
+  width: 100px;
+  background-color: rgb(229, 134, 67);
+  margin: 0px 30px;
+}
+
+.projects-header span{
+  color: rgb(229, 134, 67);
+}
+
+.projects-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 400px;
+  margin-top: 100px;
+  padding: 30px;
+  position: relative;
+  border-bottom: 3px solid rgb(229, 134, 67);
+}
+
+.project-text-content{
+  height: 100%;
+}
+
+.project-name{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.skills-header{
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.project-description{
+  font-size: 1.2rem;
+  margin: 10px 0px;
+  line-height: 20px;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill{
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 15px;
+  font-size: .9rem;
+  background-color: rgb(229, 134, 67);
+  color: white;
+}
+
+.project-btns{
+  bottom: 30px;
+  position: absolute;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-btn{
+  padding: 15px 12px;
+  background-color: transparent;
+  border: 1px solid rgb(229, 134, 67);
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 150px;
+}
+
+.project-image{
+  height: 250px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.project-image img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  object-fit: cover;
+}
+
+/* End of Projects section */
