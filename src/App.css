@@ -1,3 +1,10 @@
+:root {
+  --my-orange: rgb(229, 134, 67);
+  --subheading: rgb(82, 82, 82);
+  --description: rgb(79, 79, 79);
+  --hero-white: rgb(246, 246, 246);
+  --black: rgb(60, 60, 60);
+}
 /* Home section */
 
 .home{
@@ -17,12 +24,12 @@
   position: fixed;
   top: 0;
   background-color: white;
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid var(--my-orange);
   z-index: 100;
  }
 
 .logo{
-  color: rgb(229, 134, 67);
+  color: var(--my-orange);
 }
 
 .navbar-items, .navbar-icons{
@@ -37,7 +44,7 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: rgb(82, 82, 82);
+  color: var(--subheading);
 }
 
 .navbar-icons{
@@ -52,22 +59,21 @@
 
 .hero{
   height: 100vh;
-  background-color:rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(246, 246, 246);
+  background-color: var(--hero-white);
 }
 
 .hero-subheading1{
   font-size: 3rem;
-  color: rgb(114, 114, 114);
+  color: var(--description);
 }
 
 .hero-subheading2{
   width: 100%;
   font-size: 4rem;
-  color: rgb(93, 93, 93);
+  color: var(--subheading);
   display: inline-flex;
   height: 72px;
   overflow: hidden;
@@ -75,7 +81,7 @@
 
 .dynamic-text{
   margin-left: 20px;
-  color: rgb(229, 134, 67);
+  color: var(--my-orange);
 }
 
 .dynamic-text li{
@@ -93,15 +99,15 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  border-left: 5px solid rgb(229, 134, 67);
+  border-left: 5px solid var(--my-orange);
   left: 0;
   animation: typing 2.5s steps(10) infinite;
-  background-color: rgb(246, 246, 246);
+  background-color: var(--hero-white);;
 }
 
 .hero-heading{
   font-size: 7rem;
-  color: rgb(60, 60, 60);
+  color: var(--black);
   margin: 10px 0px;
 }
 
@@ -111,7 +117,7 @@
   border: none;
   margin-top: 40px;
   font-size: 1.1rem;
-  border: 2px solid rgb(229, 134, 67);
+  border: 2px solid var(--my-orange);
   background-color: transparent;
   transition: .3s ease all;
   font-weight: 600;
@@ -159,10 +165,11 @@
 /* About section */
 
 .about{
-  height: 92vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid var(--my-orange);
 }
 
 .about-image{
@@ -186,7 +193,7 @@
   height: 100%;
   left: -50px;
   top: 50px;
-  border: 10px solid rgb(229, 134, 67);
+  border: 10px solid var(--my-orange);
   z-index: -1;
 }
 
@@ -205,6 +212,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 30px;
+  color: var(--black);
 }
 
 .about-text{
@@ -212,10 +220,11 @@
   font-weight: 500;
   font-family:'Courier New', Courier, monospace;
   margin-bottom: 20px;
+  color: var(--description);
 }
 
 .about-text-header span{
-  color: rgb(229, 134, 67);
+  color: var(--my-orange);
 }
 
 /* End of About section */
@@ -223,10 +232,12 @@
 /* Projects section */
 
 .projects{
-  height: 92vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid var(--my-orange);
+  padding: 40px 0px;
 }
 
 .projects-header{
@@ -238,18 +249,19 @@
 .projects-header h2{
   font-size: 3rem;
   font-weight: 500;
+  color: var(--black);
 }
 
 .bar{
   height: 5px;
   border-radius: 20px;
   width: 100px;
-  background-color: rgb(229, 134, 67);
+  background-color: var(--my-orange);
   margin: 0px 30px;
 }
 
 .projects-header span{
-  color: rgb(229, 134, 67);
+  color: var(--my-orange);
 }
 
 .projects-container{
@@ -267,7 +279,7 @@
   margin-top: 100px;
   padding: 30px;
   position: relative;
-  border-bottom: 3px solid rgb(229, 134, 67);
+  border-bottom: 3px solid var(--my-orange);
 }
 
 .project-text-content{
@@ -277,6 +289,7 @@
 .project-name{
   font-size: 2rem;
   font-weight: 500;
+  color: var(--black);
 }
 
 .skills-header{
@@ -290,6 +303,7 @@
   font-size: 1.2rem;
   margin: 10px 0px;
   line-height: 20px;
+  color: var(--description);
 }
 
 .skills{
@@ -299,10 +313,10 @@
 
 .skill{
   margin-right: 10px;
-  padding: 8px;
+  padding: 8px 12px;
   border-radius: 15px;
   font-size: .9rem;
-  background-color: rgb(229, 134, 67);
+  background-color: var(--my-orange);
   color: white;
 }
 
@@ -316,12 +330,21 @@
 }
 
 .project-btn{
-  padding: 15px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 12px;
   background-color: transparent;
-  border: 1px solid rgb(229, 134, 67);
+  border: 1px solid var(--my-orange);
   border-radius: 10px;
   font-size: 1rem;
   width: 150px;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.project-btn:hover{
+    border: 1px solid var(--black);
 }
 
 .project-image{
