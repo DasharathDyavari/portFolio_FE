@@ -66,7 +66,7 @@ export const skills = [
     {
         name: 'Problem Solver',
         icon: 'https://img.icons8.com/external-ddara-lineal-ddara/64/external-problem-solving-managements-ddara-lineal-ddara.png',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor alias assumenda necessitatibus nemo doloremque, consequuntur maxime suscipit id molestiae aspernatur!',
+        description: 'Being proficient in coding, I\'ll be able to solve complex problems using Data Structure and Algorithms. Solved 1000+ problems on platforms such as GeeksForGeeks, Leetcode, etc. with 1856 contest rating',
         skills: ['Competitive Programmer','Data Structures','Problem Solving','Algorithms']
     }
 ]
