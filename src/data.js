@@ -1,26 +1,27 @@
-import app_image from './images/app.jpg';
+import path_finding from './images/path_finding.png';
+import algo_visuals from './images/algo_visuals.png';
 
 export const projects = [
     {
-        name: 'Graph Algorithms',
-        description: 'Some description about graph algorithms can be written here',
-        image: app_image,
-        tools: ['HTML','CSS','JavaScript'],
-        codelink: 'https://github.com/Dasharath9920/AlgoVisuals',
-        application: 'https://algovisualizer-76b0f.web.app/'
+        name: 'Path Finding Visualizer',
+        description: 'This application is built using A* algorithm which is used to find the shortest distance between source and destination',
+        image: path_finding,
+        tools: ['HTML','CSS','JavaScript', 'React.js','Redux','MUI','Graphs','BFS','DFS'],
+        codelink: 'https://github.com/Dasharath9920/myGoogleMap',
+        application: 'https://mini-google-maps.netlify.app/'
     },
     {
-        name: 'Sorting Algorithm Visualizer',
-        description: 'Some description about sorting algorithms can be written here',
-        image: app_image,
-        tools: ['HTML','CSS','JavaScript'],
+        name: 'Sorting Algorithms Visualizer',
+        description: 'With the help of this Sorting Algorithm Visualizer with #reactjs where you can visualize how the sorting algorithms work internally with animations.',
+        image: algo_visuals,
+        tools: ['HTML','CSS','JavaScript', 'React.js','Redux','MUI'],
         codelink: 'https://github.com/Dasharath9920/AlgoVisuals',
         application: 'https://algovisualizer-76b0f.web.app/'
     },
     {
         name: 'Website cloning',
         description: 'Some description about cloning can be written here',
-        image: app_image,
+        image: algo_visuals,
         tools: ['HTML','CSS','JavaScript'],
         codelink: 'https://github.com/Dasharath9920/AlgoVisuals',
         application: 'https://algovisualizer-76b0f.web.app/'
@@ -28,7 +29,7 @@ export const projects = [
     {
         name: 'Music Player',
         description: 'Some description about Music Player can be written here',
-        image: app_image,
+        image: algo_visuals,
         tools: ['HTML','CSS','JavaScript'],
         codelink: 'https://github.com/Dasharath9920/AlgoVisuals',
         application: 'https://algovisualizer-76b0f.web.app/'
