@@ -11,9 +11,9 @@ function Hero() {
                 <p>I'm a</p>
                 <ul className='dynamic-text'>
                     <li><span>Developer</span></li>
+                    <li><span>Youtuber</span></li>
                     <li><span>Rider</span></li>
                     <li><span>Editor</span></li>
-                    <li><span>Youtuber</span></li>
                 </ul>
 
             </h3>

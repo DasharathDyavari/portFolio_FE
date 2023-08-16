@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 function Contact() {
+
     return (
         <div className="contact" id='contact'>
             <h2 className='contact-header'>get in touch</h2>
@@ -23,12 +24,12 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-right-section">
-                    <form action="POST">
+                    <div>
                         <input type="text" className="input-name" placeholder='Enter your Name'/>
                         <input type="email" className="input-email" placeholder='Enter a valid email address'/>
                         <textarea className="input-message" name="message" id="message" cols="30" rows="5" placeholder='Enter your message'></textarea>
-                        <button className='submit-btn'>Submit</button>
-                    </form>
+                        <div className="alert-box">* This is in progress. Please Mail me or connect me on social media</div>
+                    </div>
                 </div>
             </div>
             <div className="bottom-page">

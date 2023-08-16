@@ -8,7 +8,7 @@ export const projects = [
         name: 'Path Finding Visualizer',
         description: 'This application is built using A* algorithm which is used to find the shortest distance between source and destination',
         image: path_finding,
-        tools: ['HTML','CSS','JavaScript', 'React.js','Redux','MUI','Graphs','BFS','DFS'],
+        tools: ['HTML','CSS','JavaScript', 'React.js','Git','Redux','MUI','Graphs','BFS','DFS'],
         codelink: 'https://github.com/Dasharath9920/myGoogleMap',
         application: 'https://mini-google-maps.netlify.app/'
     },
@@ -16,7 +16,7 @@ export const projects = [
         name: 'Chess Game',
         description: 'Chess game is a two player game developed using React.js. Also we are bringing the feature where Artificial Intelligence plays from system side with one player soon.',
         image: chess_game,
-        tools: ['HTML','React.js','MongoDb','Python','Redux','CSS','JavaScript','Arrays'],
+        tools: ['HTML','React.js','MongoDb','Python','Redux','Git','CSS','JavaScript','Arrays'],
         codelink: 'https://github.com/Dasharath9920/chess-game-ai',
         application: 'chess-game-9920.netlify.app'
     },
@@ -43,7 +43,7 @@ export const skills = [
         name: 'Developer',
         icon: 'https://img.icons8.com/ios-filled/100/source-code.png',
         description: 'I\'m working as a Software Engineer with 1.5years of experiece developing various features in Web development. I\'ve also built several projects some of them mentioned above.',
-        skills: ['HTML','CSS','JavaScript','Java','Python','C++','MongoDb','ReactJs','bootstrap','TypeScript']
+        skills: ['HTML','CSS','JavaScript','Java','Python','Git','C++','MongoDb','ReactJs','bootstrap','TypeScript']
     },
     {
         name: 'Youtuber',
