@@ -292,7 +292,7 @@
   width: 600px;
   font-size: 1.2rem;
   margin: 10px 0px;
-  line-height: 20px;
+  line-height: 25px;
   color: var(--description);
 }
 
@@ -413,16 +413,21 @@
 .skill-description{
   color: var(--description);
   text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 20px;
 }
 
 .skill-tools{
   position: absolute;
-  bottom: 20px;
+  top: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .skill-tool{
   font-size: .8rem;
-  padding: 5px 15px;
+  padding: 4px 10px;
 }
 
 /* End of Skills section */
