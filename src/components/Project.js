@@ -8,11 +8,11 @@ function Project({project}) {
         <div className="project-text-content">
             <h3 className='project-name'>{project.name}</h3>
             <p className='project-description'>{project.description}</p>
-            <h4 className='skills-header'>Skills</h4>
-            <div className="skills">
+            <h4 className='tools-header'>Tools</h4>
+            <div className="tools">
                 {
-                    project.skills.map(skill => {
-                        return <div className='skill'>{skill}</div>
+                    project.tools.map(tool => {
+                        return <div className='tool'>{tool}</div>
                     })
                 }
             </div>

@@ -169,7 +169,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid var(--my-orange);
 }
 
 .about-image{
@@ -236,7 +235,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid var(--my-orange);
   padding: 40px 0px;
 }
 
@@ -247,7 +245,7 @@
 }
 
 .projects-header h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: var(--black);
 }
@@ -279,7 +277,6 @@
   margin-top: 100px;
   padding: 30px;
   position: relative;
-  border-bottom: 3px solid var(--my-orange);
 }
 
 .project-text-content{
@@ -292,7 +289,7 @@
   color: var(--black);
 }
 
-.skills-header{
+.tools-header{
   font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 10px;
@@ -306,12 +303,12 @@
   color: var(--description);
 }
 
-.skills{
+.tools, .skill-tools{
   display: flex;
   flex-wrap: wrap;
 }
 
-.skill{
+.tool, .skill-tool{
   margin-right: 10px;
   padding: 8px 12px;
   border-radius: 15px;
@@ -362,3 +359,76 @@
 }
 
 /* End of Projects section */
+
+/* Skills section */
+
+.skills{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.skills-subheading{
+  color: var(--description);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.skills-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skill{
+  width: 400px;
+  height: 280px;
+  margin: 30px 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.skill-image{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.skill-image img{
+  height: 100%;
+  width: 100%;
+  display: block;
+  top: 0;
+  object-fit: cover;
+  color: orange !important;
+}
+
+.skill-name{
+  font-size: 1.4rem;
+  color: var(--black);
+  margin: 10px 0px;
+}
+
+.skill-description{
+  color: var(--description);
+  text-align: center;
+}
+
+.skill-tools{
+  position: absolute;
+  bottom: 20px;
+}
+
+.skill-tool{
+  font-size: .8rem;
+  padding: 5px 15px;
+}
+
+/* End of Skills section */
