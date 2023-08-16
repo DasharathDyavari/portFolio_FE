@@ -12,8 +12,8 @@ function Projects() {
         </div>
         <div className="projects-container">
           {
-            projects.map(project => {
-              return <Project project={project}/>
+            projects.map((project,index) => {
+              return <Project project={project} key={index+200}/>
             })
           }
         </div>

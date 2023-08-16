@@ -12,15 +12,15 @@ function Skills() {
         <h4 className='skills-subheading'>I do all kinds of neat stuff</h4>
         <div className="skills-wrapper">
             {
-                skills.map(skill => {
-                    return <div className='skill'>
+                skills.map((skill,index) => {
+                    return <div className='skill' key={index+50}>
                             <div className="skill-image"><img src={skill.icon} alt="icon"/></div>
                             <h2 className='skill-name'>{skill.name}</h2>
                             <p className='skill-description'>{skill.description}</p>
                             <div className="skill-tools">
                                 {
-                                    skill.skills.map(tool => {
-                                        return <div className='skill-tool'>{tool}</div>
+                                    skill.skills.map((tool,index1) => {
+                                        return <div className='skill-tool' key={index1+100}>{tool}</div>
                                     })
                                 }
                             </div>
