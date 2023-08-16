@@ -3,7 +3,7 @@ import about_image from '../images/about.jpg';
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div className="about-image">
             <div className='about-img-background'></div>
             <img className='about-img' src={about_image} alt="about" />

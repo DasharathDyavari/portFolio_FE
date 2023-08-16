@@ -3,7 +3,7 @@ import { skills } from '../data';
 
 function Skills() {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
         <div className="projects-header">
           <div className='bar'></div>
             <h2>My Skills</h2>

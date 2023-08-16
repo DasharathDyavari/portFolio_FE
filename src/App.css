@@ -32,7 +32,7 @@
   color: var(--my-orange);
 }
 
-.navbar-items, .navbar-icons{
+.navbar-items {
   display: flex;
 }
 
@@ -45,16 +45,6 @@
   text-transform: uppercase;
   font-weight: bold;
   color: var(--subheading);
-}
-
-.navbar-icons{
-  position: absolute;
-  bottom: 50px;
-}
-
-.navbar-icon{
-  margin-right: 20px;
-  size: 1rem;
 }
 
 .hero{
@@ -115,7 +105,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   border: none;
-  margin-top: 40px;
+  margin-top: 80px;
   font-size: 1.1rem;
   border: 2px solid var(--my-orange);
   background-color: transparent;
@@ -165,7 +155,7 @@
 /* About section */
 
 .about{
-  height: 100vh;
+  height: 92vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,11 +221,12 @@
 /* Projects section */
 
 .projects{
-  min-height: 100vh;
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 0px;
+  background-color: var(--hero-white);
 }
 
 .projects-header{
@@ -432,3 +423,153 @@
 }
 
 /* End of Skills section */
+
+/* Contact section */
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-color: var(--hero-white);
+}
+
+.contact-header{
+  font-size: 2.5rem;
+  color: var(--my-orange);
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+.contact-icons{
+  margin-top: 5px;
+  display: flex;
+}
+
+.contact-icon{
+  margin-right: 20px;
+  size: 1rem;
+}
+
+.contact-body{
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-left-section{
+  width: 500px;
+}
+
+.contact-left-section > h4{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--subheading);
+}
+
+.contact-left-section > p{
+  width: 350px;
+  line-height: 30px;
+  color: var(--description);
+  margin: 20px 0px;
+}
+
+.contact-right-section{
+  width: 600px;
+}
+
+.input-name, .input-email, .input-message{
+  font-size: .9rem;
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 3px;
+  padding: 10px;
+  border: 2px solid grey;
+}
+
+.submit-btn{
+  margin-top: 20px;
+  font-size: 1rem;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--my-orange);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: .2s ease all;
+  border: 1px solid var(--my-orange);
+}
+
+.submit-btn:hover{
+  background-color: orange;
+}
+
+.contact-mail-section{
+  display: flex;
+  align-items: center;
+}
+
+.mail-icon{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.mail-text-content h4{
+  font-size: .9rem;
+  margin: 0px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.mail-text-content p{
+  color: var(--description);
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+/* End of Contact section */
+
+/* Bottom section */
+
+.bottom-page{
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(34, 44, 52);
+  bottom:  0;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-page-header{
+  text-transform: uppercase;
+  margin: 20px 0px 10px 0px;
+}
+
+.bottom-page-header > span{
+  color: var(--my-orange);
+}
+
+.bottom-page-subheading{
+  color: rgb(227, 227, 227);
+}
+
+.bottom-page-declaimer{
+  position: absolute;
+  color: rgb(200, 200, 200);
+  bottom: 5px;
+  font-size: .8rem;
+}
+
+/* End of Bottom section */

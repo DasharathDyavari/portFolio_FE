@@ -4,7 +4,7 @@ import Hero from './Hero';
 
 function Home() {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
         <Navbar />
         <Hero />
     </div>
