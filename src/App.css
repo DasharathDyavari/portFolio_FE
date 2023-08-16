@@ -811,10 +811,19 @@
 
 
   .about{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    text-align: center;
+  }
+
+  .about-text-content{
+    width: 400px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .about-image{
@@ -843,11 +852,12 @@
   
   .about-text{
     line-height: 25px;
+    width: 300px;
   }
 
 
   .projects{
-    padding: 50px 30px;
+    padding: 50px 20px;
   }
   
   .projects-header{
@@ -857,22 +867,24 @@
   }
   
   .projects-header h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   
   .bar{
-    width: 50px;
+    width: 30px;
     margin: 0px 10px;
   }
   
   .project{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    width: 400px;
-    height: 480px;
-    margin-top: 80px;
+    justify-content: center;
+    width: 320px;
+    height: fit-content;
+    margin-top: 60px;
     text-align: center;
+    padding: 10px 30px;
   }
   
   .project-name{
@@ -884,12 +896,15 @@
   }
   
   .project-description{
-    width: 400px;
+    width: 320px;
     font-size: 1rem;
   }
   
   .tools, .skill-tools{
-    width: 400px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .tool, .skill-tool{
@@ -901,10 +916,12 @@
   
   .project-btns{
     position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+  
+  .project-btns{
+    margin-top: 30px;
+    position:static;
+    width: 250px;
   }
   
   .project-btn{
@@ -915,8 +932,104 @@
   }
   
   .project-image{
-    height: 220px;
-    width: 350px;
+    height: 150px;
+    width: 300px;
     margin: 5px 0px;
+  }
+
+  .project-text-content{
+    height: fit-content;
+  }
+
+
+  .skills{
+    padding: 60px 0px;
+  }
+
+  .skills-subheading{
+    font-size: 1rem;
+    margin: 10px 0px 40px 0px;
+  }
+  
+  .skill{
+    width: 350px;
+    height: 350px;
+    margin: 0px 10px;
+  }
+  
+  .skill-name{
+    font-size: 1.3rem;
+    color: var(--black);
+    margin: 5px 0px 10px 0px;
+  }
+  
+  .skill-tools{
+    position: static;
+    width: 330px;
+  }
+  
+  .skill-tool{
+    font-size: .75rem;
+    padding: 4px 10px;
+  }
+
+
+  .contact{
+    padding: 20px 30px;
+    text-align: center;
+  }
+  
+  .contact-header{
+    font-size: 2rem;
+    margin: 0px 0px 20px 0px;
+  }
+  
+  .contact-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-left-section, .contact-right-section{
+    width: 320px;
+  }
+  
+  .contact-left-section > h4{
+    font-size: 1.3rem;
+  }
+  
+  .contact-left-section > p{
+    width: 320px;
+  }
+  
+  .contact-right-section{
+    margin-top: 40px;
+  }
+  
+  .input-name, .input-email, .input-message{
+    width: 300px;
+    margin: 5px 0px;
+  }
+  
+  .alert-box{
+    color: var(--description);
+    width: 320px;
+    font-size: .9rem;
+    margin-top: 10px;
+  }
+  
+  .mail-icon{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  .mail-text-content{
+    text-align: start;
   }
 }
