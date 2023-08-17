@@ -92,7 +92,7 @@
 .dynamic-text li{
   position: relative;
   top: 0;
-  animation: slideup 10s steps(4) infinite;
+  animation: slideup 9s steps(3) infinite;
 }
 
 .dynamic-text li span{
@@ -106,7 +106,7 @@
   width: 100%;
   border-left: 5px solid var(--my-orange);
   left: 0;
-  animation: typing 2.5s steps(10) infinite;
+  animation: typing 3s steps(9) infinite;
   background-color: var(--hero-white);;
 }
 
@@ -161,7 +161,7 @@
 
 @keyframes slideup{
   100%{
-    top: -260px;
+    top: -194px;
   }
 }
 
@@ -615,7 +615,7 @@
 
   @keyframes slideup{
     100%{
-      top: -147px;
+      top: -110px;
     }
   }
 
