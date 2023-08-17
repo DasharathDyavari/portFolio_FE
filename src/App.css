@@ -754,7 +754,7 @@
 @media only screen and (max-width: 900px){
   .navbar{
     padding: 0px 20px;
-    height: 8vh;
+    height: 80px;
   }
 
   .navbar-item{
@@ -768,18 +768,19 @@
   }
 
   .hero{
-    padding-top: 15vh;
+    padding-top: 120px;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
   }
   
   .hero-subheading1{
-    font-size: 1.2rem;
+    font-size: 20px;
     margin-bottom: 0px;
   }
   
   .hero-subheading2{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--subheading);
     margin-top: 50px;
     height: 25px;
@@ -791,27 +792,32 @@
 
   .dynamic-text li{
     margin-bottom: 10px;
+    animation: slideup 9s steps(3) infinite;
+  }
+
+  .dynamic-text li span::after{
+    animation: typing 3s steps(9) infinite;
   }
   
   .hero-heading{
-    font-size: 4rem;
+    font-size: 40px;
   }
   
   .download-btn{
     padding: 4px 8px;
     margin-top: 15px;
-    font-size: .9rem;
+    font-size: 12px;
     border: 1px solid var(--my-orange);
   }
   
   .hero-image{
     height: 400px;
-    background-color: grey;
+    margin-top: 40px;
   }
   
   @keyframes slideup{
     100%{
-      top: -156px;
+      top: -114px;
     }
   }
 

@@ -13,7 +13,6 @@ function Hero() {
                     <li><span>Developer</span></li>
                     <li><span>Youtuber</span></li>
                     <li><span>Rider</span></li>
-                    <li><span>Editor</span></li>
                 </ul>
 
             </h3>
