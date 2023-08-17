@@ -18,7 +18,7 @@ export const projects = [
         image: chess_game,
         tools: ['HTML','React.js','MongoDb','Python','Redux','Git','CSS','JavaScript','Arrays'],
         codelink: 'https://github.com/Dasharath9920/chess-game-ai',
-        application: 'chess-game-9920.netlify.app'
+        application: 'https://chess-game-9920.netlify.app/'
     },
     {
         name: 'Sorting Algorithms Visualizer',
