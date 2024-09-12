@@ -42,8 +42,8 @@ export const skills = [
     {
         name: 'Developer',
         icon: 'https://img.icons8.com/ios-filled/100/source-code.png',
-        description: 'I\'m working as a Software Engineer with 1.5years of experiece developing various features in Web development. I\'ve also built several projects some of them mentioned above.',
-        skills: ['HTML','CSS','JavaScript','Java','Python','Git','C++','MongoDb','ReactJs','bootstrap','TypeScript']
+        description: 'I\'m working as a Software developer with 2+ years of experiece developing various features in Web development. I\'ve also built several projects some of them mentioned above.',
+        skills: ['JavaScript','TypeScript','React','AngularJS','HTML','CSS','Git','Java','Python','OOPS','C++','SQL','DBMS','Machine Learning','Operating System']
     },
     {
         name: 'Youtuber',
@@ -56,12 +56,6 @@ export const skills = [
         icon: 'https://img.icons8.com/ios-glyphs/30/000000/camera--v1.png',
         description: 'I\'m a Photographer who captures moments on film and uses images to convey stories. Collaborate with art teams, develop concepts, and employ various techniques to achieve desired results.',
         skills: ['Creativity','Attention']
-    },
-    {
-        name: 'Editor',
-        icon: 'https://img.icons8.com/ios-filled/50/clapperboard.png',
-        description: 'I\'m an Editor manipulating video footage to create a project that accurately depicts the film directors envision. I\'m at early stage. In coming days, I\'ll be using complex editing software to piece together stills, footage, sound effects, dialog, and animation effects.',
-        skills: ['Writing','Communication','Adaptability','Creativity']
     },
     {
         name: 'Problem Solver',
